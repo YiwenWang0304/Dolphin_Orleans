@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Benchmark.ActorDataGenerate": {
+      "commandName": "Project"
+    }
+  }
+}

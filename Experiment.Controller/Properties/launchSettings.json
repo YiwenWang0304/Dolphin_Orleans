@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Experiment.Controller": {
+      "commandName": "Project",
+      "commandLineArgs": "-b u -s s -a 1000  -q 0.8 -rs  0.125 -itl 1  -hn 1"
+    }
+  }
+}

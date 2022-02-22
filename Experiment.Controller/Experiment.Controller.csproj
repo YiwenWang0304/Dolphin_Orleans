@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.3.104.35" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.105.9" />
+    <PackageReference Include="MathNet.Numerics" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Clustering.DynamoDB" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Orleans.CodeGenerator" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Orleans.OrleansAWSUtils" Version="2.4.5" />
+    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NDesk.Options" Version="0.2.1" />
+    <PackageReference Include="NetMQ" Version="4.0.0.207" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dolphin.Utilities\Dolphin.Utilities.csproj" />
+    <ProjectReference Include="..\Experiment.Process\Experiment.Process.csproj" />
+  </ItemGroup>
+
+</Project>
